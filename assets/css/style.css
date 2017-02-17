@@ -1,0 +1,88 @@
+/*Make navbar transparent and lower its position to fit the bottom of top <div>. Make sure to add smooth scrolling to the project*/
+
+body {
+    background-color: #000000 !important;
+}
+
+body {
+    position: relative;
+    z-index: 0; 
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+
+/*Navbar*/
+
+/*div#myNavbar.collapse.navbar-collapse {
+   
+    
+}*/
+
+
+/*Thumbnail images*/
+
+img.img-thumbnail {
+    /*position: relative;*/
+    
+}
+
+
+/*Section area*/
+
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #8c8c8c;
+}
+
+#section2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #808080;
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #000000;
+}
+
+#section4 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #666666;
+}
+
+p {
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 10Spx;
+}
+
+a {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+
+/*.jumbotron {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}*/
